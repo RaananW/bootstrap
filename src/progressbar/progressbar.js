@@ -54,6 +54,7 @@ angular.module('ui.bootstrap.progressbar', [])
         require: '^progress',
         scope: {
             value: '=',
+            max: '=',
             type: '@'
         },
         templateUrl: 'template/progressbar/bar.html',
@@ -71,6 +72,7 @@ angular.module('ui.bootstrap.progressbar', [])
         controller: 'ProgressController',
         scope: {
             value: '=',
+            max: '=',
             type: '@'
         },
         templateUrl: 'template/progressbar/progressbar.html',
