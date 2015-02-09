@@ -122,7 +122,7 @@ describe('progressbar directive', function () {
       $rootScope.max = 300;
       $rootScope.$digest();
       expect(getBar(0).attr('aria-valuemax')).toBe('300');
-    })
+    });
   });
 
   describe('"type" attribute', function () {
